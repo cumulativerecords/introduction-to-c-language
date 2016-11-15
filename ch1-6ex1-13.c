@@ -32,7 +32,7 @@ int main() {
     }
   }
   hentry = hindex;                              /* Number of records in array */
-  /* Print the histogram */
+/* Print the histogram horizontally */
   printf("\nHorizontal oriented histogram\n");
   for (hindex = 0; hindex < hentry; hindex++) {
     printf("%2d |", hyaxis);
@@ -52,10 +52,31 @@ int main() {
   for (hindex = 1; hindex <= wordmax; hindex++) {
     printf(" %d ", hindex);
   }
+  printf("\n\n\n");
+/* Print the histogram vertically */
+  printf("\nVertical oriented histogram\n");
+  for (hyaxis = wordmax; hyaxis > 0; hyaxis--) {
+      printf("%2d |", hyaxis);
+      for (hindex = 0; hindex < hentry; hindex++) {
+        if (histolen[hindex] >= hyaxis) {
+          printf(" * ");
+        }
+        else {
+          printf("   ");
+        }
+      }
+      printf("\n");
+  }
+  printf("   +");
+  for (hindex = 1; hindex <= hentry; hindex++) {
+    printf("---");
+  }
   printf("\n");
-/*  for (hyaxis = wordmax; hyaxis > 0; hyaxis--) {
-      code
-  } */
+  printf("    ");
+  for (hindex = 1; hindex <= hentry; hindex++) {
+    printf(" %d ", hindex);
+  }
+
 
   return 0;
 }
