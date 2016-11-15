@@ -4,7 +4,7 @@
 #define OUT 0 /* Outside a word */
 
 /* Count lines, words and characters in input */
-int main() {
+int main(void) {
   int c, state;
 
   state = OUT;

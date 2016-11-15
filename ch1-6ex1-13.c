@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Count digits, white spaces, others */
-int main() {
+int main(void) {
 
   int c, i;
   int wordlen, wordmax;
