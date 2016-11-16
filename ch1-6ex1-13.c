@@ -1,3 +1,9 @@
+/*
+*   ch1-6ex1-13.c | Tiest van Gool
+*   Exersize 1-13 - Write a program to print a histogram of the lenghts
+*   of words in its input. It is easy to draw a histogram with the bars
+*   horizontal; a vertical orientation is more challenging.
+*/
 #include <stdio.h>
 
 /* Count digits, white spaces, others */
