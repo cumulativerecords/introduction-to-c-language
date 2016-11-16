@@ -1,7 +1,7 @@
 /*
 *   ch1-6ex1-14.c | Tiest van Gool
 *   Exersize 1-14 - Write a program to print a histogram of the frequencies
-    of different characters in its input.
+*   of different characters in its input.
 */
 
 #include <stdio.h>
