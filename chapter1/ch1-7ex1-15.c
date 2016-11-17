@@ -1,5 +1,5 @@
 /*
-*   ch1-6ex1-15.c | Tiest van Gool
+*   ch1-7ex1-15.c | Tiest van Gool
 *   Exersize 1-15 - Rewrite the temperature conversion program of Section 1.2
 *   to use a function for conversion.
 */
