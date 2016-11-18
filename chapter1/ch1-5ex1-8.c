@@ -1,3 +1,7 @@
+/*
+*   ch1-5ex1-8.c | Tiest van Gool
+*   Exersize 1-8 - Write a program to count blanks, tabs and newlines.
+*/
 #include <stdio.h>
 
 int main(void)

@@ -1,3 +1,7 @@
+/*
+*   ch1-5ex1-12.c | Tiest van Gool
+*   Exersize 1-12 - Write a program that prints its input one word per line.
+*/
 #include <stdio.h>
 
 #define IN  1 /* Inside a word */
