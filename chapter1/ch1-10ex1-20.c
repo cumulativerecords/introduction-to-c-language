@@ -27,6 +27,5 @@ int main(void) {
             if (c == '\n')
                 col = 0;
         }
-/*        printf("  spaces: %d, col: %d\n", spaces, col); */
     }
 }
