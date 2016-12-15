@@ -11,8 +11,6 @@
 
 int main(void) {
   int i, c, col, spaces;
-  int test0, test1, test2, test4;
-  float test3;
 
   col = 0;
   while((c = getchar()) != EOF) {
